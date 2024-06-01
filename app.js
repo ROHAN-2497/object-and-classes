@@ -9,6 +9,7 @@ function getData(dataId, nextData) {
     }, 2000);
   });
 }
+console.log("data fatching 1");
 getData().then((res) => {
-  console.log("promise");
+  console.log(object);
 });
